@@ -1,7 +1,7 @@
 FROM alpine:latest
 MAINTAINER joneszone1975@gmail.com
 
-RUN apk add --no-cache doxygen graphviz
+RUN apk add --no-cache doxygen graphviz ghostscript-fonts
 
 WORKDIR /data
 VOLUME ["/data"]
