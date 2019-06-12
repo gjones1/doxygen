@@ -1,4 +1,4 @@
-FROM 13-jdk-alpine:latest
+FROM openjdk:13-jdk-alpine
 MAINTAINER joneszone1975@gmail.com
 
 ENV PLANTUML_VERSION 1.2019.6
