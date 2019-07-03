@@ -13,3 +13,6 @@ ENV PLANTUML_JAR_PATH=$plantuml_install_dir/plantuml.jar
 
 WORKDIR /data
 VOLUME ["/data"]
+
+ENTRYPOINT ["doxygen", "./Dockerfile"]
+CMD ["--help"]
